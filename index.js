@@ -5,7 +5,7 @@ class Cat {
     this.sex=sex;
   }
 
-  function speak(){
+   speak(){
     return `${this.name} says meow!`;
   }
 }
@@ -15,7 +15,7 @@ class Dog {
     this.name=name;
     this.sex=sex;
   }
-  function speak(){
+  speak(){
     return `${this.name} says woof!`;
   }
 }
@@ -25,13 +25,15 @@ class Bird {
     this.name=name;
     this.sex=sex;
   }
-  function speak(){
-    if(this.sex=="male"){
-        return `It's me!${this.name} ,the parrot`;
-    }
-    else if(this.sex=="female"){
-      eturn `${this.name} says squawk!`;
-    }
+   speak(){
+
+     this.sex=="male"?  return `It's me!${this.name} ,the parrot`:return `${this.name} says squawk!`;
+    // if(this.sex=="male"){
+    //     return `It's me!${this.name} ,the parrot`;
+    // }
+    // else if(this.sex=="female"){
+    //   
+    // }
 
   }
 }
