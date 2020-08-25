@@ -32,7 +32,7 @@ class Bird {
     //     return `It's me!${this.name} ,the parrot`;
     // }
     // else if(this.sex=="female"){
-    //   
+    //
     // }
 
   }
