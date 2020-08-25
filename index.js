@@ -32,6 +32,6 @@ class Bird {
     else if(this.sex=="female"){
       eturn `${this.name} says squawk!`;
     }
-  
+
   }
 }
